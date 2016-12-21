@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pro.dao.PoderDao">
+
+	<resultMap type="poder" id="poderMap">
+		<id property="poderId" column="PODERID"/>
+		<result property="poderName" column="PODERNAME"/>
+		<result property="poderlit" column="PODERLIT"/>
+		<result property="poderphone" column="PODERPHONE"/>
+		<result property="poderrank" column="PODERRANK"/>
+		<result property="poderGrade" column="PODERGRADE"/>
+		<result property="poderarea" column="PODERAREA"/>
+		<result property="poderpath" column="PODERPATH"/>
+		<result property="poderTime" column="PODERTIME"/>
+	</resultMap>
+	<insert id="addPoder" parameterType="poder">
+		 insert into poder(poderId,poderName,poderlit,poderphone,poderrank,poderGrade,poderarea,poderpath,poderTime) values
+		 (#{poderId},#{poderName},#{poderlit},#{poderphone},#{poderrank},#{poderGrade},#{poderarea},#{poderpath},#{poderTime})
+	</insert>
+	<select id="findAllById" parameterType="int" resultMap="poderMap">
+		select * from poder where poderId=1;
+	</select>
+	
+	<!-- <select id="findByCn" parameterType="String" resultMap="courseMap">
+		select * from stucourse where courseName=#{courseName}
+	</select>
+	
+	<select id="findById" parameterType="int" resultMap="courseMap">
+		select * from stucourse where courseId=#{courseId}
+	</select>
+	select * from (select rownum rn,u.* from (select * from users order by userId desc) u where rownum<=#{end}) where rn>#{begin}
+	<select id="findAllCourse"  resultMap="courseMap">
+		<![CDATA[			
+			select * from stucourse order by courseId
+		]]>
+	</select> -->
+	
+	<select id="findAllBytel" parameterType="String" resultMap="poderMap">
+		select * from poder where poderphone=#{poderphone}
+	</select>
+</mapper>

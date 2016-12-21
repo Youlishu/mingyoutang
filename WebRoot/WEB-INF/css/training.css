@@ -1,0 +1,163 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	font-family: "Microsoft YaHei";
+}
+ul li{
+	list-style: none;
+}
+a:hover,a:focus{
+	text-decoration: none;
+	color: #000;
+}
+a{
+	color: #000;
+}
+h1,h2,h3{
+	margin: 0;
+}	
+/**/
+.banner{
+	background-image: url(../images/training/banner.png);
+	background-size: cover;
+}
+.pro_contant{
+	background-image: url('../images/training/大数据企业内训-大数据培训合作-标注_03.png');
+	background-size: 100%;
+	z-index: 100;
+}
+/**/
+
+/*advantage*/
+.advantage_title img{
+	margin-top: 36px;
+	margin-bottom: 25px;
+}
+.advantage_des{
+	padding-bottom: 280px;
+}
+.advantage_des p{
+	margin-top: 15px;
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+}
+/*ondition*/
+.display_show2{
+
+}
+.condition_des{
+	margin-top: 107px;
+}
+.condition_dess{
+	overflow: auto;
+	padding-left: 20px;
+	padding-bottom: 260px;
+}
+.condition_dess_img,.condition_dess_des{
+	float: left;
+	margin-top: 51px;
+}
+.condition_dess_des{
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	position: relative;
+}
+.condition_dess_des p{
+	margin-bottom: 66px;
+	color: #888;
+	font-size: 14px;
+}
+.condition_dess_des .img1{
+	position: absolute;
+	top: 75px;
+	left: 220px;
+}
+.condition_dess_des .img2{
+	position: absolute;
+	top: 162px;
+	left: 220px;
+}
+.condition_dess_des .img3{
+	position: absolute;
+	top: 250px;
+	left: 220px;
+}
+/*tcooperation*/
+.condition_title h5{
+	font-size: 16px;
+	color: #666;
+	margin-top: 6px;
+	margin-bottom: 34px;
+}
+.advantage,.tcooperation,.condition{
+	width: 100%;
+	margin-top: 59px;
+	text-align: center;
+}
+.tcooperation_title h1,.advantage_title h1,.condition_title h1,.condition_des_title h1{
+	font-size: 18px;
+	color: #333;
+}
+.tcooperation_title p,.advantage_title p,.condition_title p,.condition_des_title p{
+	font-size: 14px;
+	padding: 5px;
+	color: #666;
+}
+.tcooperation_des1{
+	width: 100%;
+	overflow: auto;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+.tcooperation_des_1,.tcooperation_des_2,.tcooperation_des_3{
+	float: left;
+	width: 272px;
+	height: 274px;
+	background-color: #FCFAF2;
+	position: relative;
+	margin-top: 80px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px  rgba(153, 153, 153, 1);
+}
+.tcooperation_des_2,.tcooperation_des_3{
+	margin-left: 48px;
+}
+.tcooperation_des_1 img,.tcooperation_des_2 img,.tcooperation_des_3 img{
+	position: absolute;
+	top: -48px;
+	left: 88px;
+}
+.tcooperation_des_1 h1,.tcooperation_des_2 h1,.tcooperation_des_3 h1{
+	margin-top: 80px;
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 50px;
+}
+.tcooperation_des_1 p,.tcooperation_des_2 p,.tcooperation_des_3 p{
+	font-size: 14px;
+	color: #999;
+}
+.tcooperation_des_fo{
+	margin: 0 auto;
+	width: 32px;
+	height: 32px;
+	border-bottom: 1px solid #666;
+}
+.tcooperation_des2{
+	margin-top: 66px;
+	margin-bottom: 140px;
+}
+.tcooperation_des2 a{
+	background-color: #ffdb72;
+	display: inline-block;
+	font-size: 24px;
+	width: 163px;
+	line-height: 53px;
+	text-align: center;
+	border-radius: 10px;
+	color: #fff;
+}

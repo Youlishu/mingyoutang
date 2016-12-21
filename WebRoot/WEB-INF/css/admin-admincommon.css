@@ -1,0 +1,63 @@
+.lia{
+	display: inline-block;
+	width: 167px;
+	
+}
+.lia span{
+	font-size: 20px;
+	color: #999;	
+}
+.banner{
+	width: 100%;
+	height: 130px ;
+    background-image: url(../images/admin/订单管理-人员_01.png);
+    background-size: 100% 100%;
+}
+.nav li a{
+	padding: 0;
+}
+.admin-statistic-con{
+	background: white;
+}
+/**/
+.admin-manage{
+	min-height: 1118px;
+	overflow: hidden;
+	width: 1300px;
+	margin: 0 auto;
+}
+.admin-manage-left{
+	padding: 30px;
+}
+.admin-manage-left,.admin-manage-right{
+	float: left;
+}
+.admin-manage-left{
+	height: 1118px;
+	width: 214px;
+	background:#030910;
+}
+.admin-manage-left li{
+	width: 214px;
+}
+.admin-manage-left li a{
+	display: inline-block;
+	width: 154px;
+	margin: 0 auto;
+	height: 78px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 18px;
+	color: #999;
+	border-bottom: 1px solid #999;
+	position: relative;
+}
+.admin-manage-style-change{
+	color: #fff !important;
+	font-size: 20px !important;
+}
+.admin-manage-left li a img{
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+}

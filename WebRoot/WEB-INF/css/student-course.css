@@ -1,0 +1,68 @@
+.student-set-right{
+	margin-left: 32px;
+	width: 860px;
+}
+.student-course-title a{
+	display: inline-block;
+	width: 106px;
+	height: 43px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background-color: #333;
+	line-height: 43px;
+}
+.student-course-title-style{
+	line-height: 46px !important;
+	height: 46px !important;
+	background-color: #ffc92a !important;
+}
+.student-course-cont{
+	margin-top: 32px;
+	margin-left: 8px;
+	float: left;
+}
+.student-course-cont-msg{
+	width: 254px;
+	height: 191px;
+	background-image: url("../images/admin/student/kechengbg.png");
+	background-size: cover;
+	margin-right: 22px;
+}
+.student-course-cont-msg-img{
+	position: relative;
+	width: 254px;
+	height: 191px;
+}
+.student-course-cont-msg-img h5{
+	margin:0;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+	background: rgba(0,0,0,0.8);
+	padding-left: 18px;
+}
+.student-course-cont-msg-cont{
+	padding-top: 20px;
+	padding-left: 18px;
+	background: rgba(0,0,0,0.8);
+	width: 254px;
+	height: 191px;
+	color: #fff;
+}
+.student-course-cont-msg-cont h5{
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.student-course-cont-msg-cont label{
+	font-weight: 500;
+}
+.student-course-cont-msg-cont h5 span{
+	font-size: 14px;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pro.dao.AdminCourseDao">
+
+	<resultMap type="adminCourse" id="adminCourseMap">
+		<id property="adminCourseId" column="ADMINCOURSEID"/>
+		<result property="adminCourseName" column="ADMINCOURSENAME"/>
+		<result property="adminCourseStyle" column="ADMINCOURSESTYLE"/>
+		<result property="adminCourseGrade" column="ADMINCOURSEGRADE"/>
+		<result property="adminCourseStime" column="ADMINCOURSESTIME"/>
+		<result property="adminCourseDetail" column="ADMINCOURSEDETAIL"/>
+	</resultMap>
+	<insert id="addAdminCourse" parameterType="adminCourse">
+		 insert into adminCourse(adminCourseId,adminCourseName,adminCourseStyle,adminCourseGrade,adminCourseStime,adminCourseDetail) 
+		 values(#{adminCourseId},#{adminCourseName},#{adminCourseStyle},#{adminCourseGrade},#{adminCourseStime},#{adminCourseDetail})
+	</insert>
+	<select id="findallAdCourse"  resultMap="adminCourseMap">
+		<![CDATA[			
+			select * from admincourse 
+		]]>
+	</select>
+	
+	<!-- <delete id="deleteUser" parameterType="int">
+		delete from users where userId=#{userId}
+	</delete>
+	
+	<update id="updateUser" parameterType="users">
+		update users set userName=#{userName},password=#{password} where userId=#{userId}
+	</update>
+	
+	<select id="findByCn" parameterType="String" resultMap="courseMap">
+		select * from stucourse where courseName=#{courseName}
+	</select>
+	select * from (select rownum rn,u.* from (select * from users order by userId desc) u where rownum<=#{end}) where rn>#{begin}
+	
+	<select id="findAll" parameterType="Map" resultMap="courseMap">
+		<![CDATA[			
+			select * from stucourse order by courseId 
+		]]>
+	</select>
+	<select id="getRowCount" resultType="int">
+		select count(*) from users
+	</select>
+ -->
+</mapper>

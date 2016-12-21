@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pro.dao.UserDao">
+
+	<resultMap type="users" id="userMap">
+		<id property="userId" column="USERID"/>
+		<result property="userName" column="USERNAME"/>
+		<result property="password" column="PASSWORD"/>
+		<result property="phone" column="PHONE"/>
+		<result property="email" column="EMAIL"/>
+		<result property="userRank" column="USERRANK"/>
+		<result property="trueName" column="TRUENAME"/>
+		<result property="Idcard" column="IDCARD"/>
+		<result property="nickName" column="NICKNAME"/>
+		<result property="sex" column="SEX"/>
+		<result property="birth" column="BIRTH"/>
+		<result property="diploma" column="DIPLOMA"/>
+		<result property="position" column="POSITION"/>
+		<result property="area" column="AREA"/>
+		<result property="company" column="COMPANY"/>
+		<result property="Workgoal" column="WORKGOAL"/>
+		<result property="pmId" column="PMID"/>
+		<result property="job" column="JOB"/>
+		<result property="regTime" column="REGTIME"/>
+	</resultMap>
+	<insert id="addUser" parameterType="users">
+		 insert into users(userId,userName,password,phone,email,userRank,pmId,regTime) values(#{userId},#{userName},#{password},#{phone},#{email},#{userRank},#{pmId},#{regTime})
+	</insert>
+	
+<!-- 	<delete id="deleteUser" parameterType="int">
+		delete from users where userId=#{userId}
+	</delete> -->
+	
+	<update id="updateUser" parameterType="users">
+		update users set userName=#{userName},password=#{password},phone=#{phone},
+		email=#{email},
+		userRank=#{userRank},
+		trueName=#{trueName},
+		Idcard=#{Idcard},
+		nickName=#{nickName},
+		sex=#{sex},
+		birth=#{birth},
+		diploma=#{diploma},
+		position=#{position},
+		area=#{area},
+		company=#{company},
+		Workgoal=#{Workgoal},
+		job=#{job}
+		
+		 where userId=#{userId}
+	</update>
+	<update id="updatepas" parameterType="String">
+		update users set password=#{0} WHERE users.userName=#{1}
+	</update>
+	
+	<select id="findUserByName" parameterType="String" resultMap="userMap">
+		select * from users where userName=#{userName}
+	</select>
+	<select id="findById" parameterType="int" resultMap="userMap">
+		select * from users where userId=#{userId}
+	</select>
+	<select id="findUserBypas" parameterType="String" resultMap="userMap">
+		select * from users where password=#{password}
+	</select>
+	<!-- select * from (select rownum rn,u.* from (select * from users order by userId desc) u where rownum<=#{end}) where rn>#{begin} -->
+	<select id="queryUsers" parameterType="Users" resultMap="userMap">
+		<![CDATA[			
+			select * from users where pmId=1 order by userId 
+			
+		]]>
+	</select>
+	<select id="queryTea" parameterType="Users" resultMap="userMap">
+		<![CDATA[			
+			select * from users where pmId=2 order by userId 
+			
+		]]>
+	</select>
+	<!-- <select id="getRowCount" resultType="int">
+		select count(*) from users
+	</select> -->
+	<!-- <select id="findallotco"  resultMap="courseMap">
+		<![CDATA[			
+			SELECT * FROM allotcourse AS a, users AS u,stucourse AS s WHERE a.userId=u.userId AND a.courseId=s.courseId AND u.pmId=2 ORDER BY a.allotId
+		]]>
+	</select> -->
+
+</mapper>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pro.dao.FenCourseDao">
+
+	<resultMap type="allotcourese" id="allotcoureseMap">
+		<id property="allotId" column="ALLOTID"/>
+		<result property="userId" column="USERID"/>
+		<result property="courseId" column="COURSEID"/>
+		
+	</resultMap>
+	<insert id="addfencourse" parameterType="allotcourese">
+		 insert into allotcourse(allotId,userId,courseId) 
+		 values(#{allotId},#{userId},#{courseId})
+	</insert>
+	<select id="fingallotById"  resultMap="allotcoureseMap">
+		<![CDATA[			
+			select * from allotcourse where userId=#{userId} 
+		]]>
+	</select> 
+	
+	<!-- <delete id="deleteUser" parameterType="int">
+		delete from users where userId=#{userId}
+	</delete>
+	
+	<update id="updateUser" parameterType="users">
+		update users set userName=#{userName},password=#{password} where userId=#{userId}
+	</update>
+	
+	<select id="findByCn" parameterType="String" resultMap="courseMap">
+		select * from stucourse where courseName=#{courseName}
+	</select>
+	select * from (select rownum rn,u.* from (select * from users order by userId desc) u where rownum<=#{end}) where rn>#{begin}
+	
+	<select id="findAll" parameterType="Map" resultMap="courseMap">
+		<![CDATA[			
+			select * from stucourse order by courseId 
+		]]>
+	</select>
+	<select id="getRowCount" resultType="int">
+		select count(*) from users
+	</select>
+ -->
+</mapper>

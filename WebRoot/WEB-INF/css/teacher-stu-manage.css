@@ -1,0 +1,75 @@
+.student-set-right{
+	margin-left: 30px;
+}
+.teacher-stumanage-search{
+	position: relative;
+}
+.teacher-stumanage-search img{
+	position: absolute;
+	top: 6.5px;
+	left: 8px;
+	font-size: 30px;
+	font-weight: 100;
+}
+.teacher-stumanage-search .search{
+	width: 400px;
+	height: 46px;
+	line-height: 46px;
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+	padding-left: 50px;
+}
+.teacher-stumanage-search .search-btn{
+	width: 100px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background: #333;
+	color: #ffc92a;
+	font-size: 16px;
+	border: 0;
+	margin-left: -5px;
+	border-radius: 2px;
+}
+.teacher-stumanage-search .search-btn:focus{
+	outline: medium;
+}
+.teacher-stumanage-con{
+	margin-top: 20px;
+}
+.teacher-stumanage-con tr td{
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+.t-num,.t-name,.t-class,.t-coursename,.t-coursesite,.t-coursetime,.t-coursegrade{
+	height: 48px !important;
+	line-height: 48px !important;
+	font-size: 12px !important;
+	border-left:1px solid #c4c4c4;
+	border-right:1px solid #c4c4c4;
+	border-bottom:1px solid #c4c4c4;
+}
+.t-num{
+	width: 90px;
+}
+.t-name{
+	width: 84px;
+}
+.t-class{
+	width: 78px;
+}
+.t-coursename{
+	width: 172px;
+}
+.t-coursesite{
+	width: 162px;
+}
+.t-coursetime{
+	width: 142px;
+}
+.t-coursegrade{
+	width: 98px;
+}

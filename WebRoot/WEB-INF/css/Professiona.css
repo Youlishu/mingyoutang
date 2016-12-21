@@ -1,0 +1,141 @@
+	*{
+	padding:0;
+	margin: 0;
+}
+body{
+	font-family: "Microsoft YaHei";
+}
+ul li{
+	list-style: none;
+}
+a:hover,a:focus{
+	text-decoration: none;
+	color: #000;
+}
+a{
+	color: #000;
+}
+h2,h3{
+	margin: 0;
+}	
+/**/
+.banner{
+	background-image:url('../images/Professiona/大数据讲师认证_01.jpg');
+	background-size: cover;
+}
+.pro_contant{
+	background-image: url('../images/Professiona/大数据讲师认证_02.jpg');
+	background-size: cover;
+}
+/**/
+.pro_right2{
+	position: relative;
+}
+.pro_right2_bg{
+	position: absolute;
+	top: 15px;
+	left: 82px;
+}
+.pro_right2 div{
+	border-radius: 5px;
+}
+.des_sm1,.des_sm2,.des_sm3{
+	width: 100%;
+	overflow: auto;
+	zoom:1;
+	color: #fff;
+}
+.des_sm1 h2,.des_sm2 h2,.des_sm3 h2{
+	font-size: 16px;
+	line-height: 36px;
+	text-align: center;	
+	color: #ffdb72;
+}
+.des_sm1 h3,.sm2_cont2 h3,.des_sm3 h3{
+	font-size: 12px;
+	padding: 8px;
+	font-weight: 600;
+}
+.sm1_cont1,.sm1_cont2,.sm1_cont3,.sm2_cont1,.sm2_cont2,.sm2_cont3,.sm3_cont1,.sm3_cont2,.sm3_cont3{
+	float: left;
+	text-align: center;
+}
+.sm1_cont1,.sm1_cont2,.sm1_cont3{
+	height: 103px;
+}
+.sm1_cont1{
+	width: 280px;
+	background: rgba(51,51,51,0.7);	
+}
+.sm1_cont2{
+	width: 324px;
+	margin-left: 22px;
+	background: rgba(102,102,102,0.7);
+}
+.sm1_cont3{
+	width: 280px;
+	margin-left: 22px;
+	background: rgba(51,51,51,0.7);
+}
+.des_sm2{
+	margin-top: 30px;
+	height: 107px;
+	overflow: auto;
+}
+.sm2_cont1{
+	width: 285px;
+	height: 76px;	
+	background: rgba(102,102,102,0.7);
+}
+.sm2_cont1 h2{
+	font-size: 16px;
+	line-height: 76px;
+	text-align: center;
+}
+.sm2_cont2{
+	width: 285px;
+	height: 103px;
+	background: rgba(102,102,102,0.7);
+	margin-left: 360px;
+}
+.des_sm3{
+	height: 160px;
+	overflow: auto;
+	margin-top: 30px;
+}
+.sm3_cont1,.sm3_cont3{
+	background: rgba(51,51,51,0.7);
+}
+.sm3_cont1{
+	width: 314px;
+}
+.sm3_cont2{
+	height: 120px;
+	width: 270px;
+	background: rgba(102,102,102,0.7);
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.sm3_cont2 h2{
+	padding-top: 10px;
+}
+.sm3_cont3{
+	width: 300px;
+	margin-left: 26px;
+	margin-top: 2px;
+}
+.pro_right_sub{
+	width: 935px;
+	line-height: 36px;
+	background: rgba(255,219,114,0.75);
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+.pro_right_sub a{
+	display: inline-block;
+	width: 100%;
+	height: 36px;
+	color: #000;
+	
+}

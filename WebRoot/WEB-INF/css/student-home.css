@@ -1,0 +1,272 @@
+.student-set-right{
+	margin-left: 32px;
+}
+.student-home-title{
+	overflow: auto;
+	margin-bottom: 46px;
+}
+.student-home-title-left,.student-home-title-right{
+	float: left;
+}
+.student-home-title-left{
+	width: 644px;
+}
+.student-home-title-right{
+	width: 184px;
+	height: 58px;
+	text-align: center;
+	background-color: #ffc92a;
+}
+.student-home-title-left h1{
+	font-size: 24px;
+	color: #666;
+	margin-bottom: 10px;
+}
+.student-home-title-left h1 span{
+	color: #ffc92a;
+}
+.student-home-title-left p{
+	font-size: 12px;
+	color: #999;
+}
+.student-home-title-right h3{
+	margin: 0;
+	font-size: 14px;
+	color: #fff;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+.student-home-title-right h4{
+	font-size: 14px;
+	color: #666;
+	width: 148px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	margin-bottom: 6px;
+	text-align: center;
+	background-color: #fff;
+}
+.student-home-nav{
+	width: 828px;
+	height: 171px;
+	border: 1px solid #c4c4c4;
+	overflow: auto;
+}
+.student-home-nav-left,.student-home-nav-right{
+	float: left;
+	overflow: auto;
+}
+.student-home-nav-left{
+	height: 120px;
+	border-right: 1px solid #c4c4c4;
+	margin-left: 60px;
+	margin-top: 30px;
+	padding-right: 80px;
+}
+.student-home-nav-left-img,.student-home-nav-left-con{
+	float: left;
+}
+
+.student-home-nav-left-con{
+	margin-left: 20px;
+	padding-top: 20px;
+}
+.student-home-nav-left-con h5{
+	margin: 0;
+	color: #666;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.student-home-nav-left-con h5 label{
+	width: 64px;
+	text-align: right;
+}
+.student-home-nav-left-con span{
+	margin-left: 14px;
+	color: #999;
+}
+.student-home-nav-right{
+	padding-left: 88px;
+	padding-top: 43px;
+}
+.student-home-nav-right h5{
+	font-size: 16px;
+	color: #333;
+}
+.student-home-nav-right p{
+	font-size: 16px;
+	color: #999;
+}
+.student-home-con{
+	margin-top: 37px;
+}
+.student-home-con a{
+	display: inline-block;
+	width: 33%;
+	height: 45px;
+	text-align: center;
+}
+.student-home-con a:nth-child(1),.student-home-con a:nth-child(2){
+	border-right: 1px solid #c4c4c4;
+}
+.student-home-con a h5{
+	margin: 0;
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 8px;
+}
+.student-home-con a p{
+	font-size: 12px;
+	color: #999;
+}
+.student-home-con img{
+	width: 830px;
+	margin-top: 25px;
+}
+.student-home-bottom{
+	margin-top: 52px;
+	margin-bottom: 30px;
+	overflow: auto;
+	zoom: 1;
+}
+.student-home-bottom-left,.student-home-bottom-mid,.student-home-bottom-right,.teacher-home-bottom-mid{
+	float: left;
+}
+.student-home-bottom-left{
+	width: 374px;
+}
+.student-home-bottom-mid{
+	margin-left: 14px;
+	width: 166px;
+	height: 338px;
+	background-color: #bacfe7;
+	text-align: center;
+	margin-top: 7px;
+}
+.teacher-home-bottom-mid{
+	margin-left: 14px;
+	width: 166px;
+	height: 338px;
+	background-image: url('../images/admin/teacher/概率bg.png');
+	text-align: center;
+	margin-top: 7px;
+}
+.student-home-bottom-mid h5{
+	font-size: 16px;
+	color: #3f597b;
+	padding-top: 40px;
+}
+.student-home-bottom-mid h1{
+	padding-top: 42px;
+	font-size: 76px;
+	color: #fff;
+}
+.teacher-home-bottom-mid h1{
+	padding-top: 135px;
+	font-size: 30px;
+	color: #fff;
+}
+.student-home-bottom-right{
+	margin-top: 7px;
+	margin-left: 14px;
+	border: 1px solid #c4c4c4;
+	padding-bottom: 20px;
+}
+.student-home-bottom-right-title a{
+	display: inline-block;
+	width: 140px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+}
+.student-home-bottom-right-title a:nth-child(1){
+	background-color: #000;
+	color: #ffc92a;
+}
+.student-home-bottom-right-title a:nth-child(2){
+	color: #333;
+}
+.student-home-bottom-right-con{
+	margin-top: 10px;
+}
+.student-home-bottom-right-con li{
+	list-style-type:none;
+	width: 282px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 16px;
+	color: #999;
+}
+.student-home-bottom-right-con li:nth-child(1){
+	background-color: #f2f2f2;
+}
+.student-home-bottom-right-con li span{
+	display: inline-block;
+	width: 140px;
+}
+.student-home-bottom-right-con .pass{
+	color: #5ebf56;
+}
+.student-home-bottom-right-con .nopass{
+	color: #ed6060;
+}
+/*企业首页*/
+.company-home-banner{
+	position: relative;
+}
+.company-home-banner-font{
+	position: absolute;
+	top: 54px;
+	left: 65px;
+}
+.company-home-banner-font h1{
+	font-size: 47px;
+	margin-bottom: 25px;
+	font-weight: 600;
+}
+.company-home-banner-font h5{
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.student-home-bottom{
+	overflow: hidden;
+}
+.company-home-bottom-left,.company-home-bottom-right{
+	float: left;
+}
+.company-home-bottom-right{
+	width: 417px;
+	height: 340px;
+	margin-left: 50px;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+}
+.company-home-bottom-right h1{
+	margin: 0;
+	width: 417px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background: #333333;
+	color: #ffc92a;
+	font-size: 16px;
+}
+.company-home-bottom-right tr{
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 14px;
+	color: #999;
+}
+.company-table-name,.company-table-grade{
+	width: 104px;
+}
+.company-table-class{
+	width: 209px;
+}

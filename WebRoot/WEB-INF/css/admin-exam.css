@@ -1,0 +1,71 @@
+.admin-manage-right{
+	margin-top: 36px;
+	margin-left: 44px;
+}
+.admin-exam-form1 label{
+	width: 90px;
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 20px;
+}
+.exam-time{
+	width: 81px;
+	height: 40px;
+	padding: 10px;
+	border:1px solid #e2e2e2;
+	border-radius: 2px;
+	font-size: 16px;
+	color: #666;
+}
+.admin-exam-form1 h1{
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.admin-exam-form1 span{
+	margin: 0px 9px;
+	font-size: 16px;
+	color: #666;
+}
+.exam-input{
+	width: 700px;
+	height: 40px;
+	border:1px solid #e2e2e2;
+	border-radius: 2px;
+	padding: 10px;
+}
+.exam-sub{
+	width: 140px;
+	height: 40px;
+	text-align: center;
+	background: #f3b600;
+	color: #fff;
+	font-size: 18px;
+	margin-left: 650px;
+	margin-top: 80px;
+}
+.admin-exam-form2-table tr{
+	height: 60px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+.admin-exam-form2-table tr td{
+	border:1px solid #e2e2e2;
+	padding: 5px;
+}
+.admin-exam-form2-table-title{
+	font-size: 14px !important;
+	color: #333 !important;
+	background: #eee;
+}
+.admin-exam-form2-table-title td{
+	border:0 !important;
+}
+.exam-change{
+	color: #66db55;
+}
+.exam-change:hover{
+	color: #66db55;
+}

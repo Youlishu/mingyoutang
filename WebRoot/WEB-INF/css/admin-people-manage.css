@@ -1,0 +1,205 @@
+.admin-manage-right{
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.admin-people-classify-title{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.admin-people-classify-title-input{
+	position: relative;
+	float: right;
+}
+.admin-people-classify-title img{
+	position: absolute;
+	width: 24px;
+	top: 2px;
+	left: 3px;
+}
+.admin-people-classify-title span{
+	font-size: 16px;
+	color: #333;
+	margin-left: 14px;
+}
+.admin-people-search{
+	width: 223px;
+	height: 26px;
+	border: 1px solid #ffc724;
+	border-radius: 2px;
+	padding-left: 30px;
+}
+.admin-people-search-btn{
+	width: 55px;
+	height: 26px;
+	color: #fff;
+	background: #ffc724;
+	border: 0;
+	margin-left: -5px;
+}
+.admin-people-classify-list{
+	padding-left: 14px;
+	overflow: hidden;
+}
+.classify-list-left,.classify-list-middle,.classify-list-right{
+	float: left;
+}
+.classify-list-middle ul{
+	overflow: hidden;
+}
+.classify-list-middle ul li{
+	float: left;
+}
+.admin-people-classify-list{
+	height: 54px;
+	border-bottom: 1px dashed #e2e2e2;
+}
+.classify-list-left{
+	width: 95px;
+	height: 54px;
+	line-height: 54px;
+	text-align: left;
+	font-size: 14px;
+	color: #666;
+}
+.classify-list-middle ,.classify-list-right{
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+}
+.classify-list-middle{
+	width: 658px;
+}
+.classify-list-middle a{
+	display: inline-block;
+	width: 42px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	margin-right:40px;
+	font-size: 14px;
+	color: #333; 
+}
+.classify-list-middle-change{
+	background: #ffc724;
+	color: #fff !important;
+}
+.classify-list-middle a:hover{
+	color: #ffc724;
+}
+.classify-list-right{
+	margin-left: 66px;
+	position: relative;
+}
+.classify-list-right span{
+	display: inline-block;
+	width: 42px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	border:1px solid #ffc724;
+	border-radius: 2px;
+}
+.classify-list-right a{
+	font-size: 14px;
+	color: #333; 
+	margin-left: 22px;
+	width: 84px;
+}
+.show-msg{
+	position: absolute;
+	top: 0;
+	left: 22px;
+}
+.hidden-msg{
+	position: absolute;
+	top: 0;
+	left: 22px;
+}
+.classify-list-right img{
+	width: 20px;
+}
+.admin-people-table{
+	margin-top: 25px;
+}
+.admin-people-table td{
+	height: 50px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #e2e2e2;
+	padding: 0 2px;
+}
+.admin-people-table-title{
+	background: #eee;
+}
+.admin-people-table-title td{
+	border: 0 !important;
+}
+.change-a{
+	color: #66db55;
+}
+.delete-a{
+	color: #f74545;
+}
+.change-delete a:nth-child(1):hover,.change-delete a:nth-child(1):focus{
+	color: #66db55;
+}
+.change-delete a:nth-child(3):hover,.change-delete a:nth-child(3):focus{
+	color: #f74545;
+}
+.change-delete1 a:nth-child(3):hover,.change-delete a:nth-child(3):focus{
+	color: #66db55;
+}
+.admin-people-table2{
+	width: 946px;
+	position: relative;
+	padding: 10px;
+	background: #eee;
+}
+.admin-people-table2 tr{
+	width: 946px;
+}
+.admin-people-table2-list label{
+	font-size: 12px;
+	color: #666;
+	height: 22px;
+	line-height: 22px;
+	text-align: right;
+}
+.admin-people-table2-list span{
+	margin-left: 10px;
+	font-size: 12px;
+	color: #333;
+	margin-right:16px;
+}
+.admin-people-table2-list td:nth-child(1) label{
+	width: 45px;
+}
+.admin-people-table2-list td:nth-child(2) label,.admin-people-table2-list td:nth-child(3) label,.admin-people-table2-list td:nth-child(5) label{
+	width: 50px;
+}
+.admin-people-table2-list td:nth-child(3){
+	width: 140px;
+}
+.admin-people-table2-list td:nth-child(4){
+	width: 184px;
+}
+.admin-people-table2-list td:nth-child(5){
+	width: 177px;
+}
+/**/
+.admin-people-form3-table-title{
+	background: #eeeeee;
+	font-size: 14px !important;
+	color: #333 !important;
+}
+.admin-people-form3-table-title td{
+	border:0 !important;
+}
+.admin-people-form3-table tr{
+	height: 60px;
+	text-align: center;
+}
+.admin-people-form3-table tr td{
+	border:1px solid #e2e2e2;
+}
