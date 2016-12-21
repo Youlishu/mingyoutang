@@ -1,0 +1,157 @@
+.student-set-right{
+	margin-left: 32px;
+}
+.student-safe-title a{
+	display: inline-block;
+	width: 106px;
+	height: 43px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background-color: #333;
+	line-height: 43px;
+}
+.student-safe-title-style{
+	line-height: 46px !important;
+	height: 46px !important;
+	background-color: #ffc92a !important;
+}
+.student-safe-form-tel,.student-safe-form-email{
+	margin-top: 52px;
+	margin-left: 20px;
+}
+.student-safe-form-tel label,.student-safe-form-email label,.student-safe-form-encrypted-con label,.student-safe-changepass label{
+	width: 95px;
+	height: 32px;
+	line-height: 32px;
+	text-align: right;
+	font-size: 14px;
+	color: #666;
+	margin-right: 10px;
+}
+.student-safe-form-tel span,.student-safe-form-email span{
+	color: #ec5151;
+	margin-right: 3px;
+}
+.student-safe-form-tel input,.student-safe-form-email input{
+	border: 1px solid #c4c4c4;
+	height: 32px;
+	padding: 2px 10px;
+}
+#newtel{
+	width: 350px;
+	margin-top: 20px;
+}
+.student-safe-form-tel p,.student-safe-form-email p{
+	font-size: 12px;
+	color: #999;
+	margin-left: 110px;
+}
+#imgcode,#telcode{
+	width: 100px;
+}
+.telbtn{
+	margin-left: 10px;
+	font-size: 14px;
+	width: 110px;
+	color: #fff;
+	background-color: #ffc929;
+	border: 0 !important;
+}
+.telsub,.emailsub,.encrypted-btn,.encrypted2-btn,.changepass-btn{
+	width: 86px !important;
+	height: 32px;
+	color: #fff;
+	background-color: #ffc929;
+	margin-top: 80px !important;
+	margin-left: 316px;
+	border:0 !important;
+}
+.telreset,.emailreset,.encrypted-reset,.encrypted2-reset,.changepass-reset{
+	width: 86px !important;
+	margin-left: 10px;
+	background-color: transparent;
+	border:0 !important;
+}
+/**/
+#newemail{
+	width: 350px;
+	margin-top: 20px;
+}
+
+/**/
+.student-safe-form-encrypted{
+	margin-left: 50px;
+	margin-top: 42px;
+}
+.student-safe-form-encrypted-title span{
+	display: inline-block;
+	width: 136px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 18px;
+	color: #fff;
+}
+.student-safe-form-encrypted-title p{
+	margin-top: 42px;
+	margin-bottom: 32px;
+	margin-left: 20px;
+	color: #999;
+}
+.encrypted1 .student-safe-form-encrypted-title span:nth-child(1),.encrypted2 .student-safe-form-encrypted-title span:nth-child(1),.encrypted2 .student-safe-form-encrypted-title span:nth-child(2),.encrypted3 .student-safe-form-encrypted-title span:nth-child(1),.encrypted3 .student-safe-form-encrypted-title span:nth-child(2){
+	background-image: url('../images/admin/student/填写密保.png');
+	padding-right: 10px;
+}
+.encrypted1 .student-safe-form-encrypted-title span:nth-child(2){
+	background-image: url('../images/admin/student/填写密保2.png');
+	padding-right: 10px;
+}
+.encrypted1 .student-safe-form-encrypted-title span:nth-child(3){
+	background-color: #ededed;
+}
+.student-safe-form-encrypted-con{
+	margin-top: 10px;
+}
+.student-safe-form-encrypted-con input,.student-safe-form-encrypted-con select,.student-safe-changepass input{
+	border: 1px solid #c4c4c4;
+	height: 32px;
+	padding: 2px 10px;
+	width: 350px;
+}
+.student-safe-form-encrypted-con input{
+	margin-top: 10px;
+}
+.student-safe-form-encrypted-con select{
+	margin-left: -4px;
+	margin-top: 30px;
+}
+.student-safe-form-encrypted-con span{
+	color: #666;
+}
+.encrypted2 .student-safe-form-encrypted-title span:nth-child(3){
+	background-color: #ededed;
+}
+.encrypted3 .student-safe-form-encrypted-title span:nth-child(3){
+	background-color: #ffc92a;
+}
+.student-safe-form-encrypted3-con{
+	margin-left: 204px;
+	margin-top: 60px;
+	text-align: center;
+}
+.student-safe-form-encrypted3-con h5{
+	font-size: 16px;
+	color: #333;
+}
+.student-safe-form-encrypted3-con p,.student-safe-form-encrypted3-con a{
+	font-size: 16px;
+	color: #999;
+}
+.student-safe-changepass{
+	margin-left: 50px;
+	margin-top: 52px;
+}
+.student-safe-changepass label{
+	margin-top: 10px;
+}

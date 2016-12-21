@@ -1,0 +1,125 @@
+
+/**/
+.student-set-right{
+	margin-left: 32px;
+}
+.basic-change-msg a{
+	display: inline-block;
+	width: 106px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 2px;
+}
+.basic-change-msg a:nth-child(1){
+	height: 46px;
+	line-height: 46px;
+	background-color: #ffc92a;
+}
+.basic-change-msg a:nth-child(2){
+	height: 43px;
+	line-height: 43px;
+	background-color: #333;
+}
+.basic-change-msg-form{
+	margin-top: 42px;
+	margin-left: 38px;
+}
+.basic-head{
+	position: relative;
+}
+.basic-head .button{
+	position: absolute;
+	top: 80px;
+	left: 119px;
+	background-color: #ffc92a;
+	border: 0;
+	font-size: 14px;
+	color: #fff;
+	padding: 3px 5px;
+	border-radius: 2px;
+}
+.basic-cont{
+	margin-top: 32px;
+}
+.basic-cont div{
+	margin-top: 16px;
+}
+.basic-cont label{
+	width: 105px;
+	text-align: right;
+	font-size: 14px;
+	color: #999;
+}
+.basic-cont span{
+	color: #ec5151;
+	padding-right: 10px;
+	text-align: center;
+}
+input:focus,.button{
+	outline:medium;
+}
+.input{
+	margin-left: 10px;
+	width: 350px;
+	height: 32px;
+	padding: 3px 10px;
+	font-size: 16px;
+	border-radius: 2px;
+	border: 1px solid #c4c4c4;
+}
+.sexman{
+	margin-left: 10px !important;
+}
+.sexwoman{
+	margin-left: 32px !important;
+}
+.select1{
+	width: 90px;
+	height: 32px;
+	margin-left: 10px;
+}
+.basic-cont h5{
+	display: inline-block;
+	width: 14px;
+	margin-left: 6px;
+}
+.basic-cont h6{
+	display: inline-block;
+	width: 14px;
+	font-size: 14px;
+	color: #999;
+	margin-left: 8px;
+}
+.sub{
+	width: 86px;
+	height: 38px;
+	margin-left: 360px;
+	background-color: #ffbf00;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 2px;
+	margin-bottom: 220px;
+	margin-top: 64px;
+}
+.reset{
+	margin-left: 24px;
+	background-color: transparent;
+
+}
+/*企业*/
+.about{
+	width: 350px;
+	height: 75px;
+	margin-left: 115px;
+	padding: 3px 10px;
+	border: 1px solid #c4c4c4;
+	border-radius: 2px; 
+}
+.company-about{
+	position: relative;
+}
+.company-about label{
+	position: absolute;
+	top: 0;
+}

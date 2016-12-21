@@ -1,0 +1,85 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.zhifu{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url("../images/admin/报名页面.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+.zhifu a{
+    text-decoration: none;
+}
+.zhifu .apply{
+    width: 636px;
+    height: 100%;
+    margin: 110px auto 0;
+}
+.zhifu .ele{
+    font-size: 18px;
+}
+.zhifu .header{
+    padding-top: 35px;
+}
+.zhifu .rank{
+    width: 280px;
+    /*height: 30px;*/
+    display: inline-block;
+    background-color: #e6d090;
+    line-height: 30px;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.zhifu h3{
+    margin: 0;
+}
+.zhifu .much{
+    margin: 10px 0 40px ;
+}
+.zhifu .arr{
+    display: inline-block;
+    width: 180px;
+}
+.zhifu .intr{
+    width: 65%;
+    margin: 0 auto;
+}
+.zhifu .intr p{
+    text-align: left;
+    margin: 0;
+}
+.zhifu .details{
+    background-color: #bfbebd;
+    opacity: 0.9;
+    width: 636px;
+    /*height: 535px;*/
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.zhifu .enter{
+    display: inline-block;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    background: #ffdb72;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: white;
+}
+.zhifu .back{
+    color: #000000;
+}
+.zhifu .click{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}

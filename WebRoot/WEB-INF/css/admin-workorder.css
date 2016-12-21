@@ -1,0 +1,58 @@
+.admin-manage-right{
+	margin-top: 36px;
+	margin-left: 44px;
+}
+.admin-workorder-form1-table{
+	height: 80px;
+	margin-top: 10px;
+}
+.admin-workorder-form1-table img{
+	width: 100px;
+	height: 80px;
+}
+.admin-workorder-form1-table td,.admin-workorder-form2-table td{
+	word-wrap:break-word;
+	word-break:break-all;
+}
+.admin-workorder-form1-table td label,.admin-workorder-form2-table td label{
+	font-size: 14px;
+	color: #666;
+}
+.admin-workorder-form1-table td span,.admin-workorder-form2-table td span{
+	margin-left: 10px;
+}
+.change-delete {
+	text-align: center;
+}
+.change-a{
+	color: #66db55;
+}
+.delete-a{
+	color: #f74545;
+}
+.change-delete a:nth-child(1):hover,.change-delete a:nth-child(1):focus{
+	color: #66db55;
+}
+.change-delete a:nth-child(3):hover,.change-delete a:nth-child(3):focus{
+	color: #f74545;
+}
+.admin-workorder-form1-table-name{
+	color: #307abf;
+}
+.admin-workorder-form2-table{
+	height: 96px;
+	margin-top: 10px;
+}
+.admin-workorder-form2-table td:nth-child(1) img{
+	width: 108px;
+	height: 96px;
+}	
+.admin-workorder-form2-table tr{
+	height: 80px;
+}
+.admin-workorder-form2-table-area{
+	color: #ffdb72;
+}
+#star,#star1{
+	float: right;
+}

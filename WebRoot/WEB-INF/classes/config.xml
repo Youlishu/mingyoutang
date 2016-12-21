@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">  
+ <configuration>
+ <settings>
+	 <setting name="lazyLoadingEnabled" value="true"/>
+	 <setting name="aggressiveLazyLoading" value="false"/>
+ </settings>
+ <typeAliases >
+ 
+ 	<package name="com.pro.domain"/>
+ 	 <!--
+ 	-->
+ 	<!--
+ 	<typeAlias alias="employee" type="com.pro.domain.Employee" />
+ 	<typeAlias alias="permission" type="com.pro.domain.Permission" />
+ 	<typeAlias alias="role" type="com.pro.domain.Role" />
+ 	
+ 	<typeAlias alias="CardInfo" type="cn.kalecai.pojo.CardInfo" />
+ 	<typeAlias type="cn.kalecai.pojo.Combo" alias="Combo"/>
+ 	<typeAlias type="cn.kalecai.pojo.Game" alias="Game"/>
+ 	<typeAlias type="cn.kalecai.pojo.GameRecord" alias="GameRecord"/>
+ 	<typeAlias type="cn.kalecai.pojo.HealthInfo" alias="HealthInfo"/>
+ 	<typeAlias type="cn.kalecai.pojo.JobNoInfo" alias="JobNoInfo"/>
+ 	<typeAlias type="cn.kalecai.pojo.KidCardInfo" alias="KidCardInfo"/>
+ 	<typeAlias type="cn.kalecai.pojo.MainAccountInfo" alias="MainAccountInfo"/>
+ 	<typeAlias type="cn.kalecai.pojo.Menu" alias="Menu"/>
+ 	<typeAlias type="cn.kalecai.pojo.ParentCardInfo" alias="ParentCardInfo"/>
+ 	<typeAlias type="cn.kalecai.pojo.PayRecord" alias="PayRecord"/>
+ 	<typeAlias type="cn.kalecai.pojo.PointInfo" alias="PointInfo"/>
+ 	<typeAlias type="cn.kalecai.pojo.PointPayRecord" alias="PointPayRecord"/>
+ 	<typeAlias type="cn.kalecai.pojo.PointShopRecord" alias="PointShopRecord"/>
+ 	<typeAlias type="cn.kalecai.pojo.Present" alias="Present"/>
+ 	<typeAlias type="cn.kalecai.pojo.SendMsg" alias="SendMsg"/>
+ 	<typeAlias type="cn.kalecai.pojo.ShopRecord" alias="ShopRecord"/>
+ 	<typeAlias type="cn.kalecai.pojo.UserGameInfo" alias="UserGameInfo"/>
+ 	<typeAlias type="cn.kalecai.pojo.UserGetPresentRecord" alias="UserGetPresentRecord"/>
+ 	<typeAlias type="cn.kalecai.pojo.UserOrderComboRecord" alias="UserOrderComboRecord"/>
+ 	<typeAlias type="cn.kalecai.pojo.WorkCardInfo" alias="WorkCardInfo"/>
+ 	 -->
+ </typeAliases>
+
+ </configuration>   
+ 

@@ -1,0 +1,123 @@
+.admin-manage-right{
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.admin-allocation-form1 label,.admin-allocation-form2 label{
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color:#333;
+}
+.allocation-input,.course-name{
+	width: 700px;
+	height: 40px;
+	padding: 10px;
+	font-size: 16px;
+	color: #666;
+	border: 1px solid #e2e2e2;
+	border-radius: 2px;
+}
+.admin-allocation-form1-des{
+	position: relative;
+}
+.admin-allocation-form1-des label{
+	position: absolute;
+	top: 0;
+}
+.course-des{
+	width: 700px;
+	height: 244px;
+	border: 1px solid #e2e2e2;
+	border-radius: 2px;
+	padding: 10px;
+	margin-left: 90px;
+}
+.allocation-sub{
+	width: 140px;
+	height: 40px;
+	text-align: center;
+	background: #f3b600;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 80px;
+	margin-left: 440px;
+}
+.course-des1{
+	width: 700px;
+	height: 135px;
+	border: 1px solid #e2e2e2;
+	border-radius: 2px;
+	padding: 10px;
+	margin-left: 90px;
+	margin-bottom: 10px;
+}
+.time-course{
+	width: 140px;
+	height: 40px;
+	padding: 10px;
+	font-size: 16px;
+	color: #666;
+	border: 1px solid #e2e2e2;
+	border-radius: 2px;
+}
+.goclass-time span{
+	display: inline-block;
+	margin-left: 8px;
+	margin-right: 12px;
+}
+.admin-allocation-form3-table tr{
+	height: 60px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+.admin-allocation-form3-table tr td{
+	border: 1px solid #e2e2e2;
+	padding: 0px 5px;
+}
+.admin-allocation-form3-title{
+	font-size: 14px !important;
+	color: #333;
+	background: #eee;
+}
+.admin-allocation-form3-title td{
+	border:0 !important;
+}
+.change-a{
+	color: #66db55;
+}
+.delete-a{
+	color: #f74545;
+}
+.change-delete a{
+	display: inline-block;
+	width: 40px;
+}
+.change-delete a:nth-child(1):hover,.change-delete a:nth-child(1):focus{
+	color: #66db55;
+}
+.change-delete a:nth-child(2):hover,.change-delete a:nth-child(2):focus{
+	color: #f74545;
+}
+.add-class{
+	display: inline-block;
+	width: 1024px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	border-radius: 2px;
+}
+.add-class:hover{
+	color: #666;
+}
+.add-class img{
+	margin-bottom: 5px;
+	margin-right: 14px;
+}

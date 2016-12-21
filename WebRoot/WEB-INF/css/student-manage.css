@@ -1,0 +1,63 @@
+.student-set-right{
+	margin-left: 32px;
+}
+.manage-change-msg a{
+	display: inline-block;
+	width: 106px;
+	height: 43px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background-color: #333;
+	line-height: 43px;
+}
+.student-manage-title-style{
+	line-height: 46px !important;
+	height: 46px !important;
+	background-color: #ffc92a !important;
+}
+.manage-change-msg-form1,.manage-change-msg-form2{
+	padding-top: 52px;
+}
+.manage-change-msg-form1 span{
+	display: inline-block;
+	width: 18%;
+	text-align: center;
+}
+.manage-change-msg-form2 span{
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+.manage-change-msg-form-title{
+	width: 830px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: #f6f6f6;
+}
+.manage-change-msg-form-title span{
+	font-size: 16px;
+	color: #333;
+}
+.manage-change-msg-form-con{
+	width: 830px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	border-bottom: 1px solid #c4c4c4;
+	margin-top: 20px;
+}
+.manage-change-msg-form-con span{
+	font-size: 14px;
+	color: #666;
+}
+.manage-change-msg-form-title-state{
+	color: #ffc92a !important;
+}
+.manage-change-msg-form-con-state1{
+	color: #5ebf56 !important;
+}
+.manage-change-msg-form-con-state2{
+	color: #ec5151 !important;
+}

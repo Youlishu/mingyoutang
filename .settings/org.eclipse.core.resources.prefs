@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//WebRoot/WEB-INF/jsp/Course/pay.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Admin/adminWorkorder.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/PersonalCenter.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Student/StudentBasic.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Student/StudentCenter.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Student/StudentInform.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Student/StudentSafe.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Teacher/TeacherCenter.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Teacher/TeacherCourse.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Teacher/TeacherManage.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Teacher/TeacherSafe.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/users/Teacher/TeacherStuManage.jsp=UTF-8
+encoding//src/com/pro/controller/UserController.java=UTF-8

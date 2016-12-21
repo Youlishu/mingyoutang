@@ -1,0 +1,209 @@
+.student-set-right{
+	margin-left: 32px;
+}
+.student-inform-title a{
+	display: inline-block;
+	width: 106px;
+	height: 43px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background-color: #333;
+	line-height: 43px;
+}
+.student-safe-title-style{
+	line-height: 46px !important;
+	height: 46px !important;
+	background-color: #ffc92a !important;
+}
+.student-inform-all{
+	margin-top: 18px;
+}
+.student-inform-all-title{
+	position: relative;
+}
+.student-inform-all-title span{
+	display: inline-block;
+	width: 80px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	margin-left: 10px;
+	background: #e3e3e3;
+	color: #999;
+	font-size: 12px;
+	position: absolute;
+	padding-left: 10px;
+	border:0.5px solid #969696;
+}
+.student-inform-all-title span .all{
+	position: absolute;
+	top: 0;
+	left: 12px;
+}
+.student-inform-all-title button{
+	width: 80px;
+	height: 21px;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #999;
+	background: #e3e3e3;
+	border:0.5px solid #969696;
+}
+.student-inform-all-title button:focus{
+	outline:medium;
+}
+.inform-delete{
+	margin-left: 100px !important;
+}
+.student-inform-all-cont{
+	margin-top: 16px;
+	border-top: 1px solid #c9c9c9; 
+}
+.student-inform-all-cont-list{
+	width: 822px;
+	height: 42px;
+	border-bottom: 1px solid #c9c9c9; 
+	line-height: 42px;
+	text-align: left;
+	position: relative;
+	font-size: 14px;
+	color: #999;
+}
+.student-inform-all-cont-list:hover,.student-inform-all-cont-list:focus{
+	background: #f3f3f3;
+}
+.student-inform-all-cont-list input[type="checkbox"]{
+	display: inline-block;
+	background: red;
+	margin-left: 8px;
+}
+.inform-email-send{
+	margin-left: 16px;
+}
+.student-inform-all-cont-list img{
+	width: 13px;
+	margin-left: 52px;
+	margin-bottom: 4px;
+}
+.inform-email-title{
+	margin-left: 14px;
+}
+.inform-email-title b{
+	margin-left: 16px;
+	color: red;
+}
+.inform-email-time{
+	position: absolute;
+	right: 5px;
+}
+/*弹出层*/
+.layui-layer{
+	border-radius: 10px;
+}
+.layer-msg{
+	margin-left: 51px;
+	margin-top: 18px;
+}
+.layer-msg-title{
+	height: 46px;
+	line-height: 46px;
+	text-align: left;
+}
+.layer-msg-title img{
+	width: 46px;
+}
+.layer-msg-title span{
+	margin-left: 5px;
+	font-size: 16px;
+	color: #333;
+}
+.layer-msg-time{
+	margin-top: 10px;
+}
+.layer-msg-time label{
+	width: 46px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+.layer-msg-time span{
+	margin-left: 10px;
+	font-size: 14px;
+	color: #666;
+}
+.layer-msg-cont{
+	width: 708px;
+	height: 280px;
+	padding: 26px 46px;
+	background: #f7f7f7;
+}
+.layer-msg-cont p{
+	font-size: 16px;
+	color: #333;
+}
+/*老师发布任务*/
+.teacher-issuetask-form1,..teacher-issuetask-form2{
+	margin-top: 42px;
+	margin-left: 40px;
+}
+.teacher-issuetask-form1 label{
+	width: 90px;
+	height: 32px;
+	line-height: 32px;
+	text-align: right;
+	font-size: 14px;
+	color: #333;
+}
+.teacher-issuetask-form-title select{
+	width: 90px;
+	height: 32px;
+	line-height: 32px;
+	text-align: left;
+	padding-left: 4px;
+	margin-left: 10px;
+}
+.teacher-issuetask-form-title  h6{
+	display: inline-block;
+	width: 14px;
+	margin-left: 8px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+.teacher-issuetask-form-title span{
+	display: inline-block;
+	width: 30px;
+	border: 0.5px solid #c4c4c4;
+	margin-left: 18px;
+	margin-right: 14px;
+	margin-bottom: 5px;
+}
+.teacher-issuetask-form-cont{
+	margin-top: 20px;
+	position: relative;
+}
+.teacher-issuetask-form-cont label{
+	position: absolute;
+	top: 0;
+}
+.teacher-issuetask-form-cont textarea{
+	margin-left: 105px;
+	border: 1px solid #c4c4c4;
+	padding: 12px;
+	font-size: 14px;
+	color: #666;
+}
+.issuetask-sub{
+	width: 120px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background: #ffc92a;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 342px;
+	margin-top:55px;
+}

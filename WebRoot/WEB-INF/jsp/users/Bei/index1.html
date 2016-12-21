@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery分页插件</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="jquery.js"></script>
+	<link href="css/main.css" type="text/css" rel="Stylesheet"/>
+	<link href="css/query_startic_pro.css" type="text/css" rel="Stylesheet"/>
+	<link href="http://cdn.bootcss.com/bootstrap-table/1.9.1/bootstrap-table.min.css" rel="stylesheet"/> 
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+
+	<script src="http://cdn.bootcss.com/bootstrap-table/1.9.1/bootstrap-table.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap-table/1.9.1/locale/bootstrap-table-zh-CN.min.js"></script>
+</head>
+<body>
+<div id="browser" class="tbtree" style="text-align: center;">
+
+
+		<div  id="mainTbtable" class='uqt_detail'>
+			<table id="table" data-toggle="table" data-url="data.json">
+				<thead>   
+				</thead>
+			</table>
+		</div>
+		<div  id="div_pager" class="page_con" >
+		</div>
+
+
+
+	</div>
+</body>
+<script type="text/javascript">
+
+	var $table = $('#table');
+	$table.bootstrapTable({
+		url: "data.json", 
+		dataType: "json",
+    pagination: true, //分页
+    singleSelect: false,
+    cache: false,
+   // height: 400,
+   //width:400,
+                    // pagination: true,
+                    pageSize: 10,
+                    pageList: [10, 25, 50, 100, 200],
+                    // search: true,
+                    // showColumns: true,
+                    // showRefresh: true,
+    //data-locale:"zh-US", //表格汉化
+    //search: true, //显示搜索框
+    //sidePagination: "server", //服务端处理分页
+    columns: [
+    {
+    	title: '活动名称',
+    	field: 'cnName',
+    	align: 'center',
+    	valign: 'middle'
+    }, 
+    {
+    	title: '状态',
+    	field: 'id',
+    	align: 'center',
+    	valign: 'middle'
+    }, 
+    {
+    	title: '参与人数',
+    	field: 'fileName',
+    	align: 'center'
+    },
+    {
+    	title: '总人数',
+    	field: 'engName',
+    	align: 'center'
+    },
+    {
+    	title: '开始时间',
+    	field: 'classTitle',
+    	align: 'center'
+    },
+    {
+    	title: '操作',
+    	field: 'appName',
+    	align: 'center'
+
+    } 
+
+    ]
+});
+</script>>
+</html>

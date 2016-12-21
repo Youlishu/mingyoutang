@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pro.dao.CourseDao">
+
+	<resultMap type="course" id="courseMap">
+		<id property="courseId" column="COURSEID"/>
+		<result property="courseGrade" column="COURSEGRADE"/>
+		<result property="courseName" column="COURSENAME"/>
+		<result property="coursePlace" column="COURSEPLACE"/>
+		<result property="courseTime" column="COURSETIME"/>
+		<result property="courseStyle" column="COURSESTYLE"/>
+		<result property="coursedetail" column="COURSEDETAIL"/>
+		<result property="courseNum" column="COURSENUM"/>
+		<result property="courseoverTime" column="COURSEOVERTIME"/>
+		<result property="courseFee" column="COURSEFEE"/>
+	
+	</resultMap>
+	<insert id="addCourse" parameterType="course">
+		 insert into stucourse(courseId,courseGrade,courseName,coursePlace,courseTime,courseStyle,coursedetail,courseNum,courseoverTime,courseFee) values(#{courseId},#{courseGrade},#{courseName},#{coursePlace},#{courseTime},#{courseStyle},#{coursedetail},#{courseNum},#{courseoverTime},#{courseFee})
+	</insert>
+	
+	<select id="findByCn" parameterType="String" resultMap="courseMap">
+		select * from stucourse where courseName=#{courseName}
+	</select>
+	
+	<select id="findById" parameterType="String" resultMap="courseMap">
+		select * from stucourse where courseId=#{courseId}
+	</select>
+	<!-- select * from (select rownum rn,u.* from (select * from users order by userId desc) u where rownum<=#{end}) where rn>#{begin} -->
+	<select id="findAllCourse"  resultMap="courseMap">
+		<![CDATA[			
+			select * from stucourse 
+		]]>
+	</select>
+	
+</mapper>

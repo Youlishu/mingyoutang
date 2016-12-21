@@ -1,0 +1,21 @@
+.admin-manage-right{
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.admin-ordermanage-form1-table tr{
+	height: 80px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+.admin-ordermanage-form1-table tr td{
+	border:1px solid #e2e2e2;
+}
+.admin-ordermanage-form1-table-title {
+	color: #333 !important;
+	height: 50px !important;
+	background: #eee;
+}
+.admin-ordermanage-form1-table-title td{
+	border: 0 !important;
+}

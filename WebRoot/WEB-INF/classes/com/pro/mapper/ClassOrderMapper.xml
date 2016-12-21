@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pro.dao.ClassOrderDao">
+
+	<resultMap type="classOrder" id="classOrderMap">
+		<id property="classOrderId" column="CLASSORDERID"/>
+		<result property="classOrderName" column="CLASSORDERNAME"/>
+		<result property="classOrderPlace" column="CLASSORDERPLACE"/>
+		<result property="classOrderTime" column="CLASSORDERTIME"/>
+		<result property="orderStartTime" column="ORDERSTARTTIME"/>
+		<result property="classOrderFee" column="CLASSORDERFEE"/>
+		<result property="classOrderoverTime" column="CLASSORDEROVERTIME"/>
+		<result property="classcoursedetail" column="CLASSCOURSEDETAIL"/>
+		<result property="classOrderState" column="CLASSORDERSTATE"/>
+		<association property="users" javaType="users">
+				<id property="userId" column="USERID"/>
+		<result property="userName" column="USERNAME"/>
+		<result property="password" column="PASSWORD"/>
+		<result property="phone" column="PHONE"/>
+		<result property="email" column="EMAIL"/>
+		<result property="userRank" column="USERRANK"/>
+		<result property="trueName" column="TRUENAME"/>
+		<result property="Idcard" column="IDCARD"/>
+		<result property="nickName" column="NICKNAME"/>
+		<result property="sex" column="SEX"/>
+		<result property="birth" column="BIRTH"/>
+		<result property="diploma" column="DIPLOMA"/>
+		<result property="position" column="POSITION"/>
+		<result property="area" column="AREA"/>
+		<result property="company" column="COMPANY"/>
+		<result property="Workgoal" column="WORKGOAL"/>
+		<result property="pmId" column="PMID"/>
+		<result property="job" column="JOB"/>
+		<result property="regTime" column="REGTIME"/>
+		</association>
+		
+	</resultMap>
+	<insert id="addClassOrder" parameterType="classOrder">
+		 insert into classOrder(userId,classOrderId,classOrderName,classOrderPlace,classOrderTime,orderStartTime,classOrderoverTime,classOrderFee,classcoursedetail,classOrderState) 
+			 values
+		 	(#{users.userId},#{classOrderId},#{classOrderName},#{classOrderPlace},#{classOrderTime},#{orderStartTime},#{classOrderoverTime},#{classOrderFee},#{classcoursedetail},#{classOrderState})
+	</insert>
+	<select id="findByClassOrderId" parameterType="int" resultMap="classOrderMap">
+		select * from classorder where classOrderId=#{classOrderId}
+	</select>
+	<select id="findByClassUserId" parameterType="int" resultMap="classOrderMap">
+		select * from classorder where userId=#{userId}
+	</select>
+	<select id="findAllClassOrder" parameterType="classOrder" resultMap="classOrderMap">
+		SELECT * FROM classorder AS c, users AS u WHERE c.UserId=u.userId
+	</select>
+	<select id="findByOrderName" parameterType="String" resultMap="classOrderMap">
+		select * from classorder where classOrderName=#{courseName}
+	</select>
+	
+	<!-- <delete id="deleteUser" parameterType="int">
+		delete from users where userId=#{userId}
+	</delete>
+	
+	<update id="updateUser" parameterType="users">
+		update users set userName=#{userName},password=#{password} where userId=#{userId}
+	</update>
+	
+
+	select * from (select rownum rn,u.* from (select * from users order by userId desc) u where rownum<=#{end}) where rn>#{begin}
+	<select id="findAllCourse" parameterType="String" resultMap="classOrderMap">
+		<![CDATA[			
+			select * from stucourse order by courseId 
+		]]>
+	</select>
+	<select id="getRowCount" resultType="int">
+		select count(*) from users 
+	</select>-->
+
+</mapper>

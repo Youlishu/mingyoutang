@@ -1,0 +1,195 @@
+.student-set-right{
+	margin-left: 32px;
+}
+.porder-change-msg a{
+	display: inline-block;
+	width: 106px;
+	height: 43px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background-color: #333;
+	line-height: 43px;
+}
+.student-porder-title-style{
+	line-height: 46px !important;
+	height: 46px !important;
+	background-color: #ffc92a !important;
+}
+.porder-change-msg-form1,.porder-change-msg-form2,.porder-change-msg-form3{
+	margin-top: 52px;
+	margin-left: 20px;
+}
+.porder-cont div{
+	margin-top: 16px;
+}
+.porder-cont label{
+	width: 90px;
+    text-align: right;
+    font-size: 14px;
+    color: #999;
+}
+.input,.select1{
+	margin-left: 10px;
+    width: 350px;
+    height: 32px;
+    padding: 3px 10px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #c4c4c4;
+    color: #999;
+}
+.select1{
+	margin-left: 6.5px;
+}
+.porder-upload{
+	position: relative;
+}
+.porder-img{
+	width: 650px;
+	position: absolute;
+	top: 0;
+	margin: 0 !important;
+	left: 100px;
+}
+.porder-img span:nth-child(2){
+	position: absolute;
+	top: 5px;
+	left: 380px;
+	font-size: 12px;
+	color: #ec5151;
+}
+.porder-img span:nth-child(3){
+	position: absolute;
+	top: 50px;
+	left: 380px;
+	font-size: 12px;
+	color: #999;
+}
+.button{
+	width: 120px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	background: #ffbf00;
+	font-size: 16px;
+	border-radius: 2px;
+	border: 0;
+	margin-left: 20px;
+}
+.porder-sub{
+	margin-top: 290px !important;
+	margin-left: 200px;
+	margin-bottom: 200px;
+}
+.porder-sub .sub{
+	width: 120px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	background: #ffbf00;
+	font-size: 16px;
+	border-radius: 2px;
+	border: 0;
+}
+.porder-sub .reset{
+	margin-left: 24px;
+    background-color: transparent;
+}
+.warning{
+	margin-left: 5px;
+	font-size: 14px;
+	color: #666;
+}
+/**/
+.porder-change-msg-form3-msg{
+	margin-top: 42px;
+	margin-bottom: 60px;
+}
+.porder-change-msg-form3-msg h2{
+	width: 830px;
+	height: 44px;
+	line-height: 44px;
+	background: #f6f6f6;
+	padding-left: 44px;
+	text-align: left;
+	font-size: 16px;
+	color: #333;
+}
+.porder-change-msg-form3-msg h2 img{
+	width: 16px;
+}
+.porder-change-msg-form3-msg p{
+	margin-top: 20px;
+	padding-left: 60px;
+}
+.porder-change-msg-form3-msg p label{
+	width: 120px;
+	text-align: right;
+	font-size: 14px;
+	color: #666;
+}
+.porder-change-msg-form3-msg p span{
+	margin-left: 23px;
+	font-size: 12px;
+	color: #999;
+}
+.porder-change-msg-form3-msg ul li{
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #c4c4c4;
+}
+.porder-change-msg-form3-msg ul li span{
+	display: inline-block;
+	width: 33%;
+	margin: 0 auto;
+	
+}
+.check-title span{
+	font-size: 14px;
+	color: #666;
+}
+.check-cont{
+	font-size: 14px;
+	color: #999;
+}
+.check-cont-state{
+	color: #ffc92a !important;
+}
+.porder-change-msg-form4{
+	text-align: center;
+	margin-left: 220px;
+	margin-top: 140px;
+}
+.porder-change-msg-form4 p{
+	color: #999;
+	margin: 0;
+}
+/*company*/
+.company-porder-grade{
+	position: relative;
+}
+.company-porder-grade label{
+	position: absolute;
+	top: 0;
+}
+.company-porder-grade textarea{
+	width: 350px;
+	height: 108px;
+	padding: 5px 10px;
+	margin-left: 100px;
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+}
+.company-porder-star{
+	position: relative;
+}
+#star,#star1{
+	margin: 0 !important;
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
